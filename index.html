@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Regex Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>User Registration Form</h2>
+    <form id="userForm">
+        <label>Full Name:</label>
+        <input type="text" id="fullName" required>
+        <span class="error" id="nameError"></span>
+        
+        <label>Email Address:</label>
+        <input type="email" id="email" required>
+        <span class="error" id="emailError"></span>
+        
+        <label>Phone Number:</label>
+        <input type="text" id="phone" required>
+        <span class="error" id="phoneError"></span>
+        
+        <label>Password:</label>
+        <input type="password" id="password" required>
+        <span class="error" id="passwordError"></span>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
